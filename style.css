@@ -73,8 +73,67 @@ body {
 .footer-link {
 	padding: 5px;
 }
+.circle-one{
+	display: none;
+}
 @media only screen and (min-width: 768px) {
+	.headerclass{
+		display: flex;
+		justify-content: space-between;
+	}
 	.header-nav-list{
 		display: flex;
+		align-items: center;
+		right: 0;
 	}
+	.header-nav-li{
+		margin: 10px;
+	}
+	.maindiv{
+		width: 50%;
+		float: left;
+	}
+	.circle-one {
+		height: 50px;
+		width: 50px;
+		display: block;
+		float: right;
+		background-color: #555;
+		border-radius: 30px;
+	  }
+	  .circle-two {
+		height: 50px;
+		width: 50px;
+		display: block;
+		float: right;
+		background-color: #555;
+		border-radius: 30px;
+	  }
+	  .circle-three {
+		height: 50px;
+		width: 50px;
+		display: block;
+		float: right;
+		background-color: #555;
+		border-radius: 30px;
+	  }
 }
+	/* current fixes:
+	color circles
+	align circles
+	double check specs */
+	
+/* Build Specifications:
+● Write a media query using min-width syntax to change styles at 768px.
+● Flex properties are used to change the layout of the navigation from column to row.
+● A flex property is used to separate “chirpus inc” and the navigation items.
+● The lorem ipsum section takes up half the width of the page.
+● Use rgba(247, 136, 167, 0.6) for the largest circle.
+● Use rgba(247, 193, 162, 0.7) for the medium sized circle.
+● Use rgba(207, 130, 213, 0.6) for the smallest circle.
+● Use a combination of position, top, right, bottom, and/or left to position the circles on
+the page. (you don’t have to use them all)
+● Circles have fixed widths and heights.
+● Circles should not be displayed in the mobile view.
+Tests: Same as build specifications. */
+
