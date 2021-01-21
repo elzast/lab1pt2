@@ -40,6 +40,7 @@ body {
 	text-align: center;
 }
 
+
 .about-text {
 	border-left: 3px solid #69696a;
 	padding-left: 10px;
@@ -94,46 +95,37 @@ body {
 		float: left;
 	}
 	.circle-one {
-		height: 50px;
-		width: 50px;
+		height: 130px;
+		width: 130px;
 		display: block;
+		position: relative;
 		float: right;
-		background-color: #555;
-		border-radius: 30px;
+		position: relative;
+		top: 50px;
+		right: 90px;
+		background-color:rgba(247, 136, 167, 0.6);
+		border-radius: 80px;
 	  }
 	  .circle-two {
-		height: 50px;
-		width: 50px;
+		height: 100px;
+		width: 100px;
 		display: block;
 		float: right;
-		background-color: #555;
-		border-radius: 30px;
+		position: relative;
+		top: 125px;
+		left: 100px;
+		background-color: rgba(247, 193, 162, 0.7);
+		border-radius: 50px;
 	  }
 	  .circle-three {
-		height: 50px;
-		width: 50px;
+		height: 70px;
+		width: 70px;
 		display: block;
 		float: right;
-		background-color: #555;
-		border-radius: 30px;
+		position: relative;
+		top: 70px;
+		left: 180px;
+		background-color: rgba(207, 130, 213, 0.6);
+		border-radius: 50px;
 	  }
 }
-	/* current fixes:
-	color circles
-	align circles
-	double check specs */
-	
-/* Build Specifications:
-● Write a media query using min-width syntax to change styles at 768px.
-● Flex properties are used to change the layout of the navigation from column to row.
-● A flex property is used to separate “chirpus inc” and the navigation items.
-● The lorem ipsum section takes up half the width of the page.
-● Use rgba(247, 136, 167, 0.6) for the largest circle.
-● Use rgba(247, 193, 162, 0.7) for the medium sized circle.
-● Use rgba(207, 130, 213, 0.6) for the smallest circle.
-● Use a combination of position, top, right, bottom, and/or left to position the circles on
-the page. (you don’t have to use them all)
-● Circles have fixed widths and heights.
-● Circles should not be displayed in the mobile view.
-Tests: Same as build specifications. */
-
